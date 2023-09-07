@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#117 SEADRA</title>
+    <style>
+        /* ... [Use the styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../second.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;"
+            type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#117 SEADRA</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/117.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>WATER</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>55</td>
+                <td>65</td>
+                <td>95</td>
+                <td>85</td>
+                <td>95</td>
+                <td>45</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>115 - 161</td>
+                <td>70 - 116</td>
+                <td>100 - 146</td>
+                <td>90 - 136</td>
+                <td>100 - 146</td>
+                <td>50 - 96</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>220 - 313</td>
+                <td>135 - 228</td>
+                <td>195 - 288</td>
+                <td>175 - 268</td>
+                <td>195 - 288</td>
+                <td>95 - 188</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Moves by level -->
+    <div style="width: 80%;margin-top: 10%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by Level for SEADRA -->
+            <b>
+                1 - 1 - WATER BUBBLE - WATER - 20 - 100 - 30<br>
+                You can reduce the SPEED.<br><br>
+                1 - 1 - WATER GUN - WATER - 40 - 100 - 25<br>
+                Spray water to attack.<br><br>
+                1 - 1 - MALICIOUS - NORMAL - ??? - 100 - 30<br>
+                Reduces enemy DEFENSE.<br><br>
+                1 - 1 - SMOKE SCREEN - NORMAL - ??? - 100 - 20<br>
+                Low enemy accuracy.<br><br>
+                8 - 8 - SMOKE SCREEN - NORMAL - ??? - 100 - 20<br>
+                Low enemy accuracy.<br><br>
+                15 - 15 - MALICIOUS - NORMAL - ??? - 100 - 30<br>
+                Reduces enemy DEFENSE.<br><br>
+                22 - 22 - WATER GUN - WATER - 40 - 100 - 25<br>
+                Spray water to attack.<br><br>
+                29 - 29 - DRAGON CYCLONE - DRAGON - 40 - 100 - 20<br>
+                Create a tornado to attack.<br><br>
+                40 - 40 - AGILITY - PSYCHIC - ??? - 100 - 30<br>
+                Greatly increases your SPEED.<br><br>
+                51 - 51 - HYDRO WATER PUMP - WATER - 120 - 80 - 5<br>
+                Very powerful water type attack.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Moves by MT/MO -->
+    <div style="width: 80%;margin-top: 5%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by MT/MO for SEADRA -->
+            <b>
+                MT02 - HEAD BLOW - NORMAL - 70 - 100 - 15<br>
+                It drives the enemy back.<br><br>
+                MT03 - DAMN??? - ??? - ??? - 100 - 10<br>
+                It doesn't work the same with ghosts.<br><br>
+                MT06 - TOXIC - POISON - 85 - ??? - 10<br>
+                Poison that increases the damage.<br><br>
+                MT10 - HIDDEN POWER - NORMAL - ??? - 100 - 15<br>
+                The power varies depending on the POKÉMON.<br><br>
+                MT13 - SNORING - NORMAL - 40 - 100 - 15<br>
+                It is only used when you sleep.<br><br>
+                MT14 - BLIZZARD - ICE - 120 - 70 - 5<br>
+                Attack that can freeze the opponent.<br><br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5<br>
+                1st turn: Attack 2nd turn: Rest<br><br>
+                MT16 - WIND ICE - ICE - 55 - 95 - 15<br>
+                Icy attack that lowers SPEED.<br><br>
+                MT17 - PROTECTION - NORMAL - ??? - 100 - 10<br>
+                Thwart the attack. It can fail.<br><br>
+                MT18 - RAIN WATER DANCE - WATER - 90 - ??? - 5<br>
+                Improves water attacks for 5 turns.<br><br>
+                MT20 - Stamina - NORMAL - ??? - 100 - 10<br>
+                Always leave 1 PS, at least.<br><br>
+                MT21 - FRUSTRATION - NORMAL - ??? - 100 - 20<br>
+                Based on the lack of loyalty.<br><br>
+                MT24 - DRAGOBREATH - DRAGON - 60 - 100 - 20<br>
+                Very powerful blow attack.<br><br>
+                MT27 - REVERSE - NORMAL - ??? - 100 - 20<br>
+                Attack based on loyalty.<br><br>
+                MT32 - DOUBLE TEAM - NORMAL - ??? - 100 - 15<br>
+                Improves evasion skill.<br><br>
+                MT34 - WIG - NORMAL - 90 - ??? - 15<br>
+                Causes confusion and raises ATTACK.<br><br>
+                MT35 - SLEEPWALKER - NORMAL - ??? - 100 - 10<br>
+                Attack randomly while you sleep.<br><br>
+                MT39 - SPEED - NORMAL - 60 - 100 - 20<br>
+                Attack that never fails.<br><br>
+                MT44 - REST - PSYCHIC - ??? - ??? - 10<br>
+                Sleep 2 shifts for full cure.<br><br>
+                MT45 - ATTRACTION - NORMAL - ??? - 100 - 15<br>
+                Fall in love with the opposite gender.<br><br>
+                MO03 - SURF - WATER - 95 - 100 - 15<br>
+                Very powerful water type attack.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+</body>
+
+</html>
