@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#129 MAGIKARP</title>
+    <style>
+        /* ... [Use the styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../previous.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;" type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#129 MAGIKARP</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <!-- Use the correct image source for MAGIKARP -->
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/129.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>WATER</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>20</td>
+                <td>10</td>
+                <td>55</td>
+                <td>80</td>
+                <td>15</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>80 - 126</td>
+                <td>15 - 61</td>
+                <td>60 - 106</td>
+                <td>85 - 131</td>
+                <td>20 - 66</td>
+                <td>25 - 71</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>150 - 243</td>
+                <td>25 - 118</td>
+                <td>115 - 208</td>
+                <td>165 - 258</td>
+                <td>35 - 128</td>
+                <td>45 - 138</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Moves by level -->
+    <div style="width: 80%;margin-top: 10%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                1 - 1 - NORMAL SPLASH - ??? - 100 - 40 - It has no effect.<br><br>
+                15 - 15 - NORMAL TACKLE - 35 - 95 - 35 - Attack with your whole body.<br><br>
+                30 - 30 - NORMAL WHIP - ??? - 100 - 15 - More powerful if you have low HP.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Moves by MT/MO -->
+    <div style="width: 80%;margin-top: 2%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                <!-- The Moves by MT/MO section was incomplete in the provided data. 
+                You may want to add the available moves for MAGIKARP once you have the complete list. -->
+                [NOTHING]
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#125 ELECTABUZZ</title>
+    <style>
+        /* ... [Use the styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../previous.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;" type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#125 ELECTABUZZ</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <!-- Use the correct image source for ELECTABUZZ -->
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/125.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>ELECTRIC</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+               
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>65</td>
+                <td>83</td>
+                <td>57</td>
+                <td>105</td>
+                <td>95</td>
+                <td>85</td>
+        
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>125 - 171</td>
+                <td>88 - 134</td>
+                <td>62 - 108</td>
+                <td>110 - 156</td>
+                <td>100 - 146</td>
+                <td>90 - 136</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>240 - 333</td>
+                <td>171 - 264</td>
+                <td>119 - 212</td>
+                <td>215 - 308</td>
+                <td>195 - 288</td>
+                <td>175 - 268</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Moves by level -->
+    <div style="width: 80%;margin-top: 10%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                1 - 1 - AT. FAST - NORMAL - 40 - 100 - 30 - Allows the user to hit first.<br><br>
+                1 - 1 - ELECTRIC THUNDER-FIST - 75 - 100 - 15 - Electric punch. It can paralyze.<br><br>
+                1 - 1 - MALICIOUS - NORMAL - 100 - 30 - Reduces enemy DEFENSE.<br><br>
+                9 - 9 - ELECTRIC THUNDER-FIST - 75 - 100 - 15 - Electric punch. It can paralyze.<br><br>
+                17 - 17 - PSYCHIC LIGHT SCREEN - 100 - 30 - Wall of light that raises the DEF. ENG.<br><br>
+                25 - 25 - NORMAL SPEED - 60 - 100 - 20 - Attack that never fails.<br><br>
+                36 - 36 - NORMAL SQUEAK - 85 - 40 - It greatly reduces the opponent's DEFENSE.<br><br>
+                47 - 47 - ELECTRIC LIGHTNING - 95 - 100 - 15 - Attack that can paralyze.<br><br>
+                58 - 58 - ELECTRIC THUNDER - 120 - 70 - 10 - Attack that can paralyze.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Moves by MT/MO -->
+    <div style="width: 80%;margin-top: 2%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                MT01 - DYNAMIC FIST - FIGHT - 100 - 50 - 5 - Attack that always confuses.<br><br>
+                MT02 - NORMAL HEAD BLOW - 70 - 100 - 15 - It drives the enemy back.<br><br>
+                MT03 - DAMN - ??? - 100 - 10 - It doesn't work the same with ghosts.<br><br>
+                MT06 - TOXIC - POISON - 85 - 10 - Poison that increases the damage.<br><br>
+                MT07 - ELECTRIC CANNON - 100 - 50 - 5 - Attack that always paralyzes.<br><br>
+                MT08 - ROCK BLOW - FIGHT - 20 - 100 - 15 - Attack that can lower DEFENSE.<br><br>
+                MT10 - NORMAL HIDDEN POWER - ??? - 100 - 15 - Power varies depending on the POKÉMON.<br><br>
+                MT13 - NORMAL SNORING - 40 - 100 - 15 - It is only used when you sleep.<br><br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5 - 1st turn: Attack 2nd turn: Rest.<br><br>
+                MT17 - NORMAL PROTECTION - 100 - 10 - Thwart the attack. It can fail.<br><br>
+                MT18 - RAIN DANCE - WATER - 90 - 5 - Improves water attacks for 5 turns.<br><br>
+                TM20 - NORMAL STAMINA - 100 - 10 - Always leave at least 1 HP.<br><br>
+                MT21 - NORMAL FRUSTRATION - ??? - 100 - 20 - Based on the lack of loyalty.<br><br>
+                MT23 - STEEL FRONT GLUE - 100 - 75 - 15 - Attack that can lower DEFENSE.<br><br>
+                MT25 - ELECTRIC THUNDER - 120 - 70 - 10 - Attack that can paralyze.<br><br>
+                MT27 - NORMAL REVERSE - ??? - 100 - 20 - Attack based on loyalty.<br><br>
+                MT29 - PSYCHIC - 90 - 100 - 10 - Attack that can lower DEF. ENG.<br><br>
+                MT31 - SLAP-MUD - GROUND - 20 - 100 - 10 - Reduces enemy accuracy.<br><br>
+                MT32 - DOUBLE EQUIPMENT - NORMAL - 100 - 15 - Improves evasion ability.<br><br>
+                MT33 - ICE FIST - ICE - 75 - 100 - 15 - Icy punch. Can freeze.<br><br>
+                MT34 - NORMAL WIGBLE - 90 - ??? - 15 - Causes confusion and raises ATTACK.<br><br>
+                MT35 - NORMAL SLEEPWALKER - ??? - 100 - 10 - Random attacks while you sleep.<br><br>
+                MT39 - NORMAL SPEED - 60 - 100 - 20 - Attack that never fails.<br><br>
+                MT41 - ELECTRIC THUNDER FIST - 75 - 100 - 15 - Electric punch. It can paralyze.<br><br>
+                MT43 - FIGHT DETECTION - 100 - 5 - You can skip the attack that turn.<br><br>
+                MT44 - PSYCHIC REST - ??? - ??? - 10 - Sleep 2 turns for a full heal.<br><br>
+                MT45 - NORMAL ATTRACTION - ??? - 100 - 15 - Fall in love with the opposite gender.<br><br>
+                MT46 - SINIEST THIEF. - ??? - 40 - 100 - 10 - Attack that can steal an object.<br><br>
+                MT48 - FIRE FIST - FIRE - 75 - 100 - 15 - Fiery punch. It can burn.<br><br>
+                MO04 - NORMAL STRENGTH - 80 - 100 - 15 - Powerful physical attack.<br><br>
+                MO05 - NORMAL FLASH - 70 - 20 - Blinds the enemy and let down the precision.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+</body>
+
+</html>

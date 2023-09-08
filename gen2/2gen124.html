@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#124 JYNX</title>
+    <style>
+        /* ... [Use the styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../third.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;" type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#124 JYNX</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <!-- Use the correct image source for JYNX -->
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/124.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>ICE/PSYCHIC</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>65</td>
+                <td>50</td>
+                <td>35</td>
+                <td>95</td>
+                <td>115</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>125 - 171</td>
+                <td>55 - 101</td>
+                <td>40 - 86</td>
+                <td>100 - 146</td>
+                <td>120 - 166</td>
+                <td>100 - 146</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>240 - 333</td>
+                <td>105 - 198</td>
+                <td>75 - 168</td>
+                <td>195 - 288</td>
+                <td>235 - 328</td>
+                <td>195 - 288</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Moves by level -->
+    <div style="width: 80%;margin-top: 10%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by Level for JYNX -->
+            <b>
+                1 - 1 - DESTROYER - NORMAL - 40 - 100 - 35 - Hit with the legs or tail.<br><br>
+                1 - 1 - SNOW DUST - ICE - 40 - 100 - 25 - Attack that can freeze.<br><br>
+                1 - 1 - LOVING KISS - NORMAL - 75 - 10 - Can put the enemy to sleep.<br><br>
+                1 - 1 - PHANTOM LAB - NORMAL - 20 - 100 - 30 - Attack that can paralyze.<br><br>
+                9 - 9 - LOVING KISS - NORMAL - 75 - 10 - Can put the enemy to sleep.<br><br>
+                13 - 13 - SNOW DUST - ICE - 40 - 100 - 25 - Attack that can freeze.<br><br>
+                21 - 21 - DOUBLE SLAPP - NORMAL - 15 - 85 - 10 - Slap 2 to 5 times in a row.<br><br>
+                25 - 25 - ICE FIST - ICE - 75 - 100 - 15 - Icy punch. Can freeze.<br><br>
+                35 - 35 - EVIL EYE - NORMAL - 100 - 5 - Prevents fleeing or changing.<br><br>
+                41 - 41 - BODY BLOW - NORMAL - 85 - 100 - 15 - Attack that can paralyze.<br><br>
+                51 - 51 - DEADLY SONG - NORMAL - 100 - 5 - You and your rival fall in 3 turns.<br><br>
+                57 - 57 - BLIZZARD - ICE - 120 - 70 - 5 - Attack that can freeze the opponent.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Moves by MT/MO -->
+    <div style="width: 80%;margin-top: 2%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by MT/MO for JYNX -->
+            <b>
+                MT01 - DYNAMIC FIST - FIGHT - 100 - 50 - 5 - Attack that always confuses.<br><br>
+                MT02 - HEAD BLOW - NORMAL - 70 - 100 - 15 - It drives the enemy back.<br><br>
+                MT03 - DAMN - ??? - 100 - 10 - It doesn't work the same with ghosts.<br><br>
+                MT06 - TOXIC - POISON - 85 - 10 - Poison that increases the damage.<br><br>
+                MT09 - MORE - NORMAL PSYCHE - 100 - 10 - Copy car changes. of the rival.<br><br>
+                MT10 - HIDDEN POWER - ??? - 100 - 15 - Power varies depending on the POKÉMON.<br><br>
+                MT12 - SWEET AROMA - NORMAL - 100 - 20 - Reduces enemy evasion.<br><br>
+                MT13 - SNORING - NORMAL - 40 - 100 - 15 - It is only used when you sleep.<br><br>
+                MT14 - BLIZZARD - ICE - 120 - 70 - 5 - Attack that can freeze the opponent.<br><br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5 - 1st turn: Attack 2nd turn: Rest.<br><br>
+                MT16 - WIND - ICE - 55 - 95 - 15 - Icy attack that lowers SPEED.<br><br>
+                MT17 - PROTECTION - NORMAL - 100 - 10 - Thwart the attack. It can fail.<br><br>
+                MT18 - RAIN DANCE - WATER - 90 - 5 - Improves water attacks for 5 turns.<br><br>
+                MT20 - STAMINA - NORMAL - 100 - 10 - Always leave at least 1 HP.<br><br>
+                MT21 - FRUSTRATION - ??? - 100 - 20 - Based on the lack of loyalty.<br><br>
+                MT27 - REVERSE - ??? - 100 - 20 - Attack based on loyalty.<br><br>
+                MT29 - PSYCHIC - PSYCHIC - 90 - 100 - 10 - Attack that can lower DEF. ENG.<br><br>
+                MT30 - SHADOW BALL - GHOST - 80 - 100 - 15 - Attack that can lower DEF. ENG.<br><br>
+                MT31 - SLAP-MUD - GROUND - 20 - 100 - 10 - Reduces enemy accuracy.<br><br>
+                MT32 - DOUBLE EQUIPMENT - NORMAL - 100 - 15 - Improves evasion ability.<br><br>
+                MT33 - ICE FIST - ICE - 75 - 100 - 15 - Icy punch. Can freeze.<br><br>
+                MT34 - WIGBLE - NORMAL - 90 - ??? - 15 - Causes confusion and raises ATTACK.<br><br>
+                MT35 - SLEEPWALKER - ??? - 100 - 10 - Random attacks while you sleep.<br><br>
+                MT42 - DREAM EATER - PSYCHIC - 100 - 100 - 15 - Steal HP from a sleeping victim.<br><br>
+                MT44 - REST - PSYCHIC - ??? - ??? - 10 - Sleep 2 turns for a full heal.<br><br>
+                MT45 - ATTRACTION - NORMAL - ??? - 100 - 15 - Fall in love with the opposite gender.<br><br>
+                MT46 - SINIEST THIEF. - ??? - 40 - 100 - 10 - Attack that can steal an object.<br><br>
+                MT50 - NIGHTMARE - GHOST - 100 - 15 - Sleeper loses 1/4 HP per turn.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+</body>
+
+</html>
