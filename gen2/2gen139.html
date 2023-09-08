@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#139 OMASTAR</title>
+    <style>
+        /* ... [Styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../previous.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;" type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#139 OMASTAR</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <!-- Use the correct image source for OMASTAR -->
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/139.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>ROCK / WATER</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>70</td>
+                <td>60</td>
+                <td>125</td>
+                <td>55</td>
+                <td>115</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>130 - 176</td>
+                <td>65 - 111</td>
+                <td>130 - 176</td>
+                <td>60 - 106</td>
+                <td>120 - 166</td>
+                <td>75 - 121</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>250 - 343</td>
+                <td>125 - 218</td>
+                <td>255 - 348</td>
+                <td>115 - 208</td>
+                <td>235 - 328</td>
+                <td>145 - 238</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Attacks by Level -->
+    <div style="width: 80%;margin-top: 5%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                1 - RESTRICTION - NORMAL - 10 - 100 - 35 - Attack that can reduce SPEED.<br><br>
+                1 - SINIEST BITE - ??? - 60 - 100 - 25 - Attack that can cause withdrawal.<br><br>
+                1 - WATER SHELTER - WATER - 100 - 40 - Improves the DEFENSE of the user.<br><br>
+                13 - SINIEST BITE - ??? - 60 - 100 - 25 - Attack that can cause withdrawal.<br><br>
+                19 - WATER GUN - WATER - 40 - 100 - 25 - Spray water to attack.<br><br>
+                31 - MALICIOUS - NORMAL - 100 - 30 - Reduces enemy DEFENSE.<br><br>
+                37 - PROTECTION - NORMAL - 100 - 10 - Thwart the attack. It can fail.<br><br>
+                40 - BARREL NAIL - NORMAL - 20 - 100 - 15 - Throws fire spikes 2-5 times.<br><br>
+                54 - POWER PAST - ROCK - 60 - 100 - 5 - You can upload all the features.<br><br>
+                65 - HYDRO PUMP - WATER - 120 - 80 - 5 - Very powerful water type attack.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Attacks by MT/MO -->
+    <div style="width: 80%;margin-top: 5%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                MT02 - HEAD BLOW - NORMAL - 70 - 100 - 15 - It drives the enemy back.<br><br>
+                MT03 - DAMN - ??? - 100 - 10 - It doesn't work the same with ghosts.<br><br>
+                MT04 - UNROLL - ROCK - 30 - 90 - 20 - Attack 5 turns, with more power.<br><br>
+                MT06 - TOXIC - POISON - 85 - 10 - Poison that increases the damage.<br><br>
+                MT08 - BLOW - FIGHT - 20 - 100 - 15 - Attack that can lower DEFENSE.<br><br>
+                MT10 - HIDDEN POWER - NORMAL - ??? - 100 - 15 - The power varies depending on the POKÉMON.<br><br>
+                MT13 - SNORING - NORMAL - 40 - 100 - 15 - It is only used when you sleep.<br><br>
+                MT14 - BLAZER - ICE - 120 - 70 - 5 - Attack that can freeze the opponent.<br><br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5 - 1st turn: Attack 2nd turn: Rest<br><br>
+                MT16 - WIND ICE - ICE - 55 - 95 - 15 - Ice attack that lowers SPEED.<br><br>
+                MT17 - PROTECTION - NORMAL - 100 - 10 - Thwart the attack. It can fail.<br><br>
+                MT18 - RAIN WATER DANCE - WATER - 90 - 5 - Enhances water attacks for 5 turns.<br><br>
+                TM20 - STAMINA - NORMAL - 100 - 10 - Always leave at least 1 HP.<br><br>
+                MT21 - FRUSTRATION - NORMAL - ??? - 100 - 20 - Based on the lack of loyalty.<br><br>
+                MT27 - REVERSE - NORMAL - ??? - 100 - 20 - Attack based on loyalty.<br><br>
+                MT32 - DOUBLE EQUIPMENT - NORMAL - 100 - 15 - Improves evasion ability.<br><br>
+                MT34 - WIGBLE - NORMAL - 90 - 15 - Causes confusion and raises ATTACK.<br><br>
+                MT35 - SLEEPWALKER - NORMAL - 100 - 10 - Random attacks while you sleep.<br><br>
+                MT37 - TORM. SAND - ROCK - 100 - 10 - Produces damage on all turns.<br><br>
+                MT44 - REST - PSYCHIC - 100 - 10 - Sleep 2 turns for a full heal.<br><br>
+                MT45 - ATTRACTION - NORMAL - 100 - 15 - Fall in love with the opposite gender.<br><br>
+                MT46 - THIEF - SINIEST - 40 - 100 - 10 - Attack that can steal an object.<br><br>
+                MO03 - SURF - WATER - 95 - 100 - 15 - Very powerful water type attack.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+    <script>
+        /* Your JavaScript goes here. */
+    </script>
+</body>
+
+</html>
