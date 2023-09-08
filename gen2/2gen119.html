@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#119 SEAKING</title>
+    <style>
+        /* ... [Use the styles from previous examples] ... */
+        .pokemon-table {
+            width: 90%;
+            margin: 20px 5%;
+            border-collapse: collapse;
+            font-size: 16px;
+            color: black;
+        }
+
+        .pokemon-table th,
+        .pokemon-table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .header-bg {
+            background-color: red;
+            color: white;
+        }
+
+        .data-bg {
+            background-color: whitesmoke;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <!-- UI Header -->
+    <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../third.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;"
+            type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#119 SEAKING</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/119.gif">
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>WATER</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>80</td>
+                <td>92</td>
+                <td>65</td>
+                <td>68</td>
+                <td>65</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>140 - 186</td>
+                <td>97 - 143</td>
+                <td>70 - 116</td>
+                <td>73 - 119</td>
+                <td>70 - 116</td>
+                <td>85 - 131</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>270 - 363</td>
+                <td>189 - 282</td>
+                <td>135 - 228</td>
+                <td>141 - 234</td>
+                <td>135 - 228</td>
+                <td>165 - 258</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Moves by level -->
+    <div style="width: 80%;margin-top: 10%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by Level for SEAKING -->
+            <b>
+                1 - 1 - FLYING PICK - 35 - 100 - 35<br>
+                1 - 1 - NORMAL WHIP - 100 - 30<br>
+                10 - 10 - SUPERSONIC - 55 - 20<br>
+                15 - 15 - SWING - 65 - 100 - 25<br>
+                24 - 24 - WHIP - ??? - 100 - 15<br>
+                29 - 29 - FURY ATTACK - 15 - 85 - 20<br>
+                41 - 41 - WATER WATERFALL - 80 - 100 - 15<br>
+                49 - 49 - DRILL - ??? - 30 - 5<br>
+                61 - 61 - AGILITY - 100 - ??? - 30<br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Moves by MT/MO -->
+    <div style="width: 80%;margin-top: 5%;margin-left: 10%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Accuracy - PP
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <!-- Moves by MT/MO for SEAKING -->
+            <b>
+                MT03 - DAMN - ??? - 100 - 10<br>
+                MT06 - TOXIC - POISON - 85 - ??? - 10<br>
+                MT10 - HIDDEN POWER - NORMAL - ??? - 100 - 15<br>
+                MT13 - SNORING - NORMAL - 40 - 100 - 15<br>
+                MT14 - BLIZZARD - ICE - 120 - 70 - 5<br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5<br>
+                MT16 - WIND ICE - ICE - 55 - 95 - 15<br>
+                MT17 - PROTECTION - NORMAL - ??? - 100 - 10<br>
+                MT18 - RAIN WATER DANCE - WATER - 90 - ??? - 5<br>
+                MT20 - Stamina - NORMAL - ??? - 100 - 10<br>
+                MT21 - FRUSTRATION - NORMAL - ??? - 100 - 20<br>
+                MT27 - REVERSE - NORMAL - ??? - 100 - 20<br>
+                MT32 - DOUBLE TEAM - NORMAL - ??? - 100 - 15<br>
+                MT34 - WIG - NORMAL - 90 - ??? - 15<br>
+                MT35 - SLEEPWALKER - NORMAL - ??? - 100 - 10<br>
+                MT39 - SPEED - NORMAL - 60 - 100 - 20<br>
+                MT44 - REST - PSYCHIC - ??? - ??? - 10<br>
+                MT45 - ATTRACTION - NORMAL - ??? - 100 - 15<br>
+                MO03 - SURF - WATER - 95 - 100 - 15<br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+    </div>
+</body>
+
+</html>
