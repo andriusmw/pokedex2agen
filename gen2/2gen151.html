@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>#151 MEW</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/main.js"></script>
+    <!-- ... [Your existing styles] ... -->
+    <style>
+
+        .pokemon-table {
+                 width: 90%;
+                 margin: 20px 5%;
+                 border-collapse: collapse;
+                 font-size: 16px;
+                 color: black;
+             }
+     
+             .pokemon-table th,
+             .pokemon-table td {
+                 border: 1px solid white;
+                 padding: 10px;
+                 text-align: center;
+                 font-size: 300%;
+             }
+     
+             .header-bg {
+                 background-color: red;
+                 color: white;
+             }
+     
+             .data-bg {
+                 background-color: whitesmoke;
+             }
+         </style>
+</head>
+
+<body>
+    <!-- ... [Your UI header and navigation] ... -->
+      <!-- UI Header -->
+      <div class="ui-header" data-position="fixed">
+        <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+    </div>
+
+    <!-- Navigation -->
+    <a href="../previous.html">
+        <input style="margin-left:70%;margin-top:0px;background-color:aqua;float:left;font-size:300%;position: fixed;" type="button" value="BACK">
+    </a>
+
+    <!-- Pokémon Image and Name -->
+    <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
+        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+            <p style="font-size:250%;">#151 MEW</p>
+        </div>
+        <div style="margin-left:3%;background-color:white;float:left">
+            <img style="width: 40vw;" src="../images/SPRITES/GEN2/151.gif"> <!-- Replace with Mew's image -->
+        </div>
+    </div>
+
+    <!-- Pokémon Type -->
+    <div>TYPE:</div>
+    <div>PSYCHIC</div>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+
+
+       <!-- Pokedex Description -->
+     <div style="width: 90%;margin-top: 5%;margin-left: 5%; border: 2px solid white;font-size: 250%;">
+        <div class="retro" style="background-color: gray;"><b>Pokedex Description</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            <b>Pokémon Gold / Silver:</b>
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            They say that it only appears to the pure of heart, and to those who want to see it with all their might.
+        </div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            <b>Pokémon Crystal:</b>
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            As it is capable of learning all movements, it is thought to be the ancestor of all POKÉMON.
+        </div>
+    </div>
+
+    <!-- Base Stats -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+               
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+             
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 50 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 50</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>160 - 206</td>
+                <td>105 - 151</td>
+                <td>105 - 151</td>
+                <td>105 - 151</td>
+                <td>105 - 151</td>
+                <td>105 - 151</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Max Stats Level 100 -->
+    <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray;">Max Stats Level 100</p>
+    <table class="pokemon-table">
+        <thead class="header-bg">
+            <tr>
+                <th>Health</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Speed</th>
+                <th>At. Esp.</th>
+                <th>Def. Esp.</th>
+            </tr>
+        </thead>
+        <tbody class="data-bg">
+            <tr>
+                <td>310 - 403</td>
+                <td>205 - 298</td>
+                <td>205 - 298</td>
+                <td>205 - 298</td>
+                <td>205 - 298</td>
+                <td>205 - 298</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Movements by Level -->
+    <div style="width: 90%;margin-top: 5%;margin-left: 5%; border: 2px solid white;font-size: 250%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            Level - Gold/Silver - Crystal - Attack - Type - Power - Precision - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                1 - 1 - NORMAL DESTROYER - 40 - 100 - 35 - Hit with the legs or tail.<br><br>
+                10 - 10 - TRANSFORM - NORMAL - ??? - 100 - 10 - You disguise yourself as the enemy.<br><br>
+                20 - 20 - MEGA FIST - NORMAL - 80 - 85 - 20 - A powerful punch.<br><br>
+                30 - 30 - METRONOME - NORMAL - ??? - 100 - 10 - Randomly use a POKÉMON attack.<br><br>
+                40 - 40 - PSYCHIC - PSYCHIC - 90 - 100 - 10 - Attack that can lower DEF. ENG.<br><br>
+                50 - 50 - POWER PAST - ROCK - 60 - 100 - 5 - You can upload all the features.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- Movements by MT/MO -->
+    <div style="width: 90%;margin-top: 5%;margin-left: 5%; border: 2px solid white;font-size: 150%;">
+        <div class="retro" style="background-color: gray;"><b>Movements by MT/MO</b></div>
+        <div style="padding-bottom: 5%;background-color: red;">
+            MT/MO - Attack - Type - Power - Precision - PP - Description
+        </div>
+        <div style="text-align: left;background-color: white; color:black;">
+            <b>
+                MT01 - DYNAMIC FIST - FIGHT - 100 - 50 - 5 - Attack that always confuses.<br><br>
+                MT02 - HEAD BLOW - NORMAL - 70 - 100 - 15 - It drives the enemy back.<br><br>
+                MT03 - DAMN - ??? - 100 - ??? - 10 - Doesn't work the same with ghosts.<br><br>
+                MT04 - UNROLL - ROCK - 30 - 90 - 20 - Attack 5 turns, with more power.<br><br>
+                MT05 - ROAR - NORMAL - ??? - 100 - 20 - Drive away the rival and end of the fight.<br><br>
+                MT06 - TOXIC - POISON - 85 - ??? - 10 - Poison that increases the damage.<br><br>
+                MT07 - ELECTROGUN - ELECTRIC - 100 - 50 - 5 - Attack that always paralyzes.<br><br>
+                MT08 - ROCK BLOW - FIGHT - 20 - 100 - 15 - Attack that can lower DEFENSE.<br><br>
+                MT09 - PSYCHE - NORMAL - ??? - 100 - 10 - Copy car changes. of the rival.<br><br>
+                MT10 - HIDDEN POWER - NORMAL - ??? - 100 - 15 - The power varies depending on the POKÉMON.<br><br>
+                MT11 - SUNNY DAY - FIRE - 90 - ??? - 5 - Improved fire attacks 5 turns.<br><br>
+                MT12 - SWEET AROMA - NORMAL - ??? - 100 - 20 - Reduces enemy evasion.<br><br>
+                MT13 - SNORING - NORMAL - 40 - 100 - 15 - It is only used when you sleep.<br><br>
+                MT14 - BLAZER - ICE - 120 - 70 - 5 - Attack that can freeze the opponent.<br><br>
+                MT15 - HYPER BEAM - NORMAL - 150 - 90 - 5 - 1st turn: Attack 2nd turn: Rest<br><br>
+                MT16 - WIND ICE - ICE - 55 - 95 - 15 - Ice attack that lowers SPEED.<br><br>
+                MT17 - PROTECTION - NORMAL - ??? - 100 - 10 - Thwart the attack. It can fail.<br><br>
+                MT18 - RAIN DANCE - ??? - 90 - ??? - 5 - Enhances water attacks for 5 turns.<br><br>
+                TM20 - STAMINA - NORMAL - ??? - 100 - 10 - Always leave at least 1 HP.<br><br>
+                MT21 - FRUSTRATION - NORMAL - ??? - 100 - 20 - Based on the lack of loyalty.<br><br>
+                MT22 - SOLAR RAY - PLANT - 120 - 100 - 10 - 1st turn: Prepare 2nd turn: Attack<br><br>
+                MT23 - RAIL TAIL - STEEL - 100 - 75 - 15 - Attack that can lower DEFENSE.<br><br>
+                MT24 - DRAGOBREATH - DRAGON - 60 - 100 - 20 - Very powerful blow attack.<br><br>
+                MT25 - THUNDER - ELECTRIC - 120 - 70 - 10 - Attack that can paralyze.<br><br>
+                MT26 - EARTHQUAKE - EARTH - 100 - 100 - 10 - Strong, but useless against flyers.<br><br>
+                MT27 - REVERSE - NORMAL - ??? - 100 - 20 - Attack based on loyalty.<br><br>
+                MT28 - EXCAVATE - EARTH - 60 - 100 - 10 - 1st turn: Dig 2nd turn: Attack<br><br>
+                MT29 - PSYCHIC - PSYCHIC - 90 - 100 - 10 - Attack that can lower DEF. ENG.<br><br>
+                MT30 - SHADOW BALL - GHOST - 80 - 100 - 15 - Attack that can lower DEF. ENG.<br><br>
+                MT31 - SLAP-MUD - GROUND - 20 - 100 - 10 - Reduces enemy accuracy.<br><br>
+                MT32 - DOUBLE EQUIPMENT - NORMAL - ??? - 100 - 15 - Improves evasion ability.<br><br>
+                MT33 - ICE FIST - ICE - 75 - 100 - 15 - Icy punch. Can freeze.<br><br>
+                MT34 - WIGBLE - NORMAL - 90 - ??? - 15 - Causes confusion and raises ATTACK.<br><br>
+                MT35 - SLEEPWALKER - NORMAL - ??? - 100 - 10 - Random attacks while you sleep.<br><br>
+                MT36 - SLUDGE PUMP - POISON - 90 - 100 - 10 - It can poison the enemy.<br><br>
+                MT37 - TORM. SAND - ROCK - ??? - 100 - 10 - Produces damage on all turns.<br><br>
+                MT38 - FLARE - FIRE - 120 - 85 - 5 - Attack that can cause burns.<br><br>
+                MT39 - SPEED - NORMAL - 60 - 100 - 20 - Attack that never fails.<br><br>
+                MT40 - CURLO DEFENSE - NORMAL - ??? - 100 - 40 - Improves the DEFENSE of the user.<br><br>
+                MT41 - THUNDER FIST - ELECTRIC - 75 - 100 - 15 - electric punch. It can paralyze.<br><br>
+                MT42 - DREAM EATER - PSYCHIC - 100 - 100 - 15 - Steal HP from a sleeping victim.<br><br>
+                MT43 - DETECTION - FIGHT - ??? - 100 - 5 - You can skip the attack that turn.<br><br>
+                MT44 - REST - PSYCHIC - ??? - 100 - 10 - Sleep 2 turns for a full heal.<br><br>
+                MT45 - ATTRACTION - NORMAL - ??? - 100 - 15 - Fall in love with the opposite gender.<br><br>
+                MT46 - THIEF - SINIEST - 40 - 100 - 10 - Attack that can steal an object.<br><br>
+                MT47 - STEEL WING - STEEL - 70 - 90 - 25 - Rigid wings that hit the rival.<br><br>
+                MT48 - FIRE FIST - FIRE - 75 - 100 - 15 - fiery punch. It can burn.<br><br>
+                MT49 - CORTEFURIA - BUG - 10 - 95 - 20 - Successive hits give more power.<br><br>
+                MT50 - NIGHTMARE - GHOST - ??? - 100 - 15 - The sleeper loses 1/4 HP per turn.<br><br>
+                MO01 - CUT - NORMAL - 50 - 95 - 30 - Cuts with claws, scythes, etc.<br><br>
+                MO02 - FLIGHT - FLYING - 70 - 95 - 15 - 1st turn: Fly 2nd turn: Attack<br><br>
+                MO03 - SURF - WATER - 95 - 100 - 15 - Very powerful water type attack.<br><br>
+                MO04 - STRENGTH - NORMAL - 80 - 100 - 15 - Powerful physical attack.<br><br>
+                MO05 - FLASH - NORMAL - 70 - ??? - 20 - Blinds the enemy and let down the precision.<br><br>
+            </b>
+        </div>
+    </div>
+
+    <!-- ... [Your footer] ... -->
+        <!-- Footer -->
+        <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
+            <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
+        </div>
+
+</body>
+
+</html>
