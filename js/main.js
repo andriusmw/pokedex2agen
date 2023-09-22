@@ -16,7 +16,7 @@ window.onload = function() {
     mainPage.addEventListener("click", function() {
     	
     	
-    		window.open("second.html", "second", "width=100%, height=100%");
+    		window.location.replace("second.html");
     		
     	
        
