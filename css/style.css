@@ -38,7 +38,7 @@ body {
     color: #ff0000;
 }
 
-.ui-header{
+img.ui-header{
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -72,3 +72,108 @@ p, h2{
 .rojo{
 	background-color:red;
 }
+
+
+/*---------------------------- MEDIA QUERY PARA TAMAÑOS MAYORES DEL TLF -----------------------*/
+
+@media (max-width: 768px) {
+
+    /*titulo del pokemon*/
+    p {font-size: 40% !important ;} 
+
+    /*sprite-> añadir a cada poke */
+    .sprite {width: 5vw !important ;}
+
+    /* adjust font size for movements */ 
+    .pcdiv {
+        font-size: 15% !important;
+    }
+
+    html, body {
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 0;
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    .page {
+        width: 50%;
+        height: 50%;
+        display: table;
+    }
+
+    
+#secondPage {
+	width: 50%;
+    height: 50%;
+    display: table;
+   background-color: red;
+}
+.contents {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.contents2 {
+    display: table-cell;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#content-text {
+    font-weight: bold;
+    font-size: 0.5em;
+    color: #ff0000;
+}
+
+.ui-header{
+	width: 21%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 38%; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+    /*----------------------estilos fijos de cada página de pokemon -----------------*/
+
+    /*
+  table, thead, tbody {
+    width: 10% !important;
+    font-size: 10% !important;
+  } */
+    
+.pokemon-table {
+    width: 50% !important; 
+    margin: 5% !important;
+    margin: 20px 5%;
+    border-collapse: colapse;
+    font-size: 20% !important; 
+    color: black;
+}
+
+.pokemon-table th,
+.pokemon-table td {
+    border: 1px solid white;
+    padding: 1% !important;
+    text-align: center;
+   /* font-size: 10% !important; */
+}
+
+.header-bg {
+    background-color: red;
+    color: white;
+}
+
+.data-bg {
+    background-color: whitesmoke;
+}*/
+
+div {
+    font-size: 50% 
+}
+    
+  }
+  
