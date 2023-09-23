@@ -1,7 +1,7 @@
 html,
 body {
     width: 100%;
-    height: 100%;
+   /* height: 100%;*/
     margin: 0 auto;
     padding: 0;
     background-color: #222222;
@@ -81,21 +81,53 @@ p, h2{
     /*titulo del pokemon*/
     p {font-size: 40% !important ;} 
 
+    /*add to every pokemon and change to 0 on html*/
+    .titleP {
+        margin-top: 0% !important;
+    }
+
     /*sprite-> añadir a cada poke */
     .sprite {width: 5vw !important ;}
 
-    /* adjust font size for movements */ 
+    /* adjust font size for movements añadir a cada poke*/ 
     .pcdiv {
         font-size: 15% !important;
     }
 
+    /* clase para ocultar saltos de linea  -> añadir a cada poke*/
+   .none {
+    display: none !important;
+   }
+
+   /* change margin top to 4% on each pokemon */
+   .back {
+    position: relative !important;
+    margin-left:70% !important;
+    margin-top:5px !important;
+    background-color:aqua;
+    float:left;
+    font-size:30% !important;
+   }
+
+   /*add to each h1 on footer and remove div container from h1 */
+   .footer {
+    max-width: fit-content !important;
+    font-size: 30% !important;
+    background-color: #222222 !important;
+    margin-top: 0px !important;
+    }
+
     html, body {
         width: 50%;
-        height: 50%;
+       /* height: 100%; */
         margin: 0 auto;
         padding: 0;
         background-color: #222222;
         color: #ffffff;
+    }
+
+    html {
+        background-color: blue;
     }
 
     .page {
@@ -131,10 +163,10 @@ p, h2{
 }
 
 .ui-header{
-	width: 21%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 38%; /* Posicionamos la cabecera al lado izquierdo */
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	position: relative; /* Hacemos que la cabecera tenga una posición fija */
 }
 
     /*----------------------estilos fijos de cada página de pokemon -----------------*/
@@ -172,7 +204,8 @@ p, h2{
 }*/
 
 div {
-    font-size: 50% 
+    font-size: 50% ;
+   
 }
     
   }
