@@ -9,18 +9,26 @@
     <title>Menu</title>
 
     <style>
-        body {
+html, body {
+    height: 100%; /* Aseguramos que tanto el html como el body tengan un alto del 100% */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #282828;
+    background-color: blue;
 }
 
 .container {
-    max-width: 480px; /* ancho máximo para teléfonos móviles */
-    margin: 0 auto;  /* centra el contenedor en la pantalla */
+    width: 100%;
+    max-width: 480px;
+    min-height: 100%;  /* Esto hace que el contenedor tenga al menos el alto de la ventana */
+    margin: 0 auto;
     overflow: hidden;
+    background-color: #282828;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
+
+
 
 .page {
     padding: 15px;
