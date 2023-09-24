@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+  
+    <meta name="description" content="Pok3dex 2gen Lite by Professor Dog" />
+
+    <title>Pok3dex Gen2 Lite</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <style>
+        html, body {
+            height: 100%; /* Aseguramos que tanto el html como el body tengan un alto del 100% */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: blue;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 480px;
+            min-height: 100%;  /* Esto hace que el contenedor tenga al menos el alto de la ventana */
+            margin: 0 auto;
+            overflow: hidden;
+            background-color: #282828;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        
+        
+        
+        .page {
+            padding: 15px;
+        }
+        
+        select {
+            width: 100%; 
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Sombra sutil alrededor del select */
+            appearance: none; /* Elimina el estilo predeterminado del navegador */
+            -webkit-appearance: none; /* Lo mismo, pero para Safari */
+            -moz-appearance: none; /* Lo mismo, pero para Firefox */
+            cursor: pointer;
+        }
+        
+        input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #0066ff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        input[type="button"]:hover {
+            background-color: #0044cc;
+        }
+        
+        .ui-content {
+            margin-top: 20px;
+            color: #fff;
+        }
+        
+        .ui-footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        
+        
+            </style>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+
+<div class="ui-header" data-position="fixed">
+      <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
+   </div>
+   
+    <div id="main1" class="page">
+        <div class="contents">
+            <span id="content-text">Pok3dex Gen2 Lite</span>
+            <br>
+            <span style="color:aqua;"> 0.0.0 Version</span>
+        </div>
+    </div>
+</body>
+
+</html>
