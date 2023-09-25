@@ -4,41 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <title>#159 CROCONAW</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/main.js"></script>
     <style>
         /* ... [The existing styles you provided are intact here] ... */
-     
+        html, body {
+    height: 100%; /* Aseguramos que tanto el html como el body tengan un alto del 100% */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    min-height: 100%;  /* Esto hace que el contenedor tenga al menos el alto de la ventana */
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #282828;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+
+
+.page {
+    padding: 15px;
+}
+
+select {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Sombra sutil alrededor del select */
+    appearance: none; /* Elimina el estilo predeterminado del navegador */
+    -webkit-appearance: none; /* Lo mismo, pero para Safari */
+    -moz-appearance: none; /* Lo mismo, pero para Firefox */
+    cursor: pointer;
+}
+
+
+
+
+.ui-content {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.ui-footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    font-size: small !important;
+    text-decoration: none;
+}
+
+p {
+    font-size: x-large !important;
+    margin-bottom: 10px;
+}
+
+div {
+    font-size: 110% !important;
+}
+
+.type {
+    color: #fff;
+}
+
+/*-----------------las tablas --------------------*/
+.containertablas {
+    max-width: 480px; /* Ancho típico de un teléfono móvil. */
+    margin: 0 auto;  /* Centra el contenido en pantallas más grandes. */
+    overflow-x: auto; /* Agrega desplazamiento si el contenido es más ancho que el contenedor. */
+}
 
 .pokemon-table {
-         width: 90%;
-         margin: 20px 5%;
-         border-collapse: collapse;
-         font-size: 16px;
-         color: black;
-     }
+    width: 90%; /* Utiliza el ancho completo disponible. */
+    margin: 20px 0; /* Simplificamos el margen. */
+    border-collapse: collapse;
+    margin-left: 5% !important;
+}
 
-     .pokemon-table th,
-     .pokemon-table td {
-         border: 1px solid white;
-         padding: 10px;
-         text-align: center;
-         font-size: 300%;
-     }
+.pokemon-table th,
+.pokemon-table td {
+    border: 1px solid white;
+  
+    text-align: center;
+    font-size: 18px; /* Reducimos la fuente inicialmente. */
+}
 
-     .header-bg {
-         background-color: red;
-         color: white;
-     }
+.header-bg {
+    background-color: red;
+    color: white;
+}
 
-     .data-bg {
-         background-color: whitesmoke;
-     }
+.data-bg {
+    background-color: whitesmoke;
+}
+
+/* Estilos específicos para pantallas más grandes. */
+@media (min-width: 481px) {
+    .pokemon-table {
+        font-size: 16px; /* Aumentamos el tamaño de la fuente en pantallas más grandes. */
+    }
+    .pokemon-table th,
+    .pokemon-table td {
+        font-size: 150%; 
+    }
+
+    .sprite {
+        width: 10vw !important;
+    }
+
+    input{
+        margin-left:70% !important;
+        margin-top:4% !important;
+        background-color:aqua;
+        float:left;
+        font-size:300% !important;
+        position: relative !important;
+    }
+}
+
 
     </style>
 </head>
 
 <body>
+    <div class="container">
     <!-- UI Header -->
     <div class="ui-header" data-position="fixed">
         <img alt="toppokedex" src="../images/toppokedex.png" style="width:100%;height:100%;">
@@ -51,17 +154,17 @@
 
     <!-- Pokémon Image and Name -->
     <div style="min-height: fit-content; margin-bottom: 2%;display: block;">
-        <div style="margin-left:3%;margin-top:35%;background-color:grey;width: 60%;">
+        <div style="margin-left:3%;margin-top:5%;background-color:grey;width: 60%;">
             <p style="font-size:250%;">#159 CROCONAW</p>
         </div>
         <div style="margin-left:3%;background-color:white;float:left">
-            <img style="width: 40vw;" src="../images/SPRITES/GEN2/159.gif">
+            <img style="width: 40vw;"  class="sprite" src="../images/SPRITES/GEN2/159.gif">
         </div>
     </div>
 
     <!-- Pokémon Type -->
-    <div>TYPE:</div>
-    <div>WATER</div>
+    <div class="type">TYPE:</div>
+    <div class="type">WATER</div>
 
     <br><br>
     <br><br>
@@ -85,6 +188,7 @@
         </div>
     </div>
 
+    <div class="containertablas">
     <!-- Base Stats -->
     <p style="width: 90%; margin-left: 5%;font-size: 150%; background-color: gray">Base Stats</p>
     <table class="pokemon-table">
@@ -159,7 +263,7 @@
             </tr>
         </tbody>
     </table>
-
+    </div>
     <!-- Movements by Level -->
     <div style="width: 90%;margin-top: 5%;margin-left: 5%; border: 2px solid white;font-size: 250%;">
         <div class="retro" style="background-color: gray;"><b>Movements by Level</b></div>
@@ -221,10 +325,11 @@
     </div>
 
       <!-- Footer -->
-      <div style="margin-left:30px;margin-top:15px;margin-bottom:15px;width:900px;float:left">
-        <h1 style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</h1>
-    </div>
 
+        <p style="color:aqua">Pokédex Gold/Silver/Crystal By Professor Dog.</p>
+
+
+    </div>
 </body>
 
 </html>
